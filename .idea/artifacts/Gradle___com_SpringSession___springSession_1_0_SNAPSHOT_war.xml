@@ -1,0 +1,46 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="Gradle : com.SpringSession : springSession-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/springSession</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$" />
+    </properties>
+    <root id="archive" name="springSession-1.0-SNAPSHOT.war">
+      <element id="javaee-facet-resources" facet="springSession_main/web/Web Gradle : springSession-1.0-SNAPSHOT.war" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springSession_main" />
+          <element id="dir-copy" path="$PROJECT_DIR$/build/resources/main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-redis:1.7.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.session:spring-session:1.2.1.RELEASE" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: redis.clients:jedis:2.9.0" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-keyvalue:1.1.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-oxm:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context-support:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.21" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.21" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.2.6.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.apache.commons:commons-pool2:2.4.2" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:1.12.2.RELEASE" />
+          <element id="library" level="project" name="Gradle: aopalliance:aopalliance:1.0" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.1/c04eb2cc599cd1742889bfa7cc41878db0d152f5/jackson-databind-2.8.1.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.0/45b426f7796b741035581a176744d91090e2e6fb/jackson-annotations-2.8.0.jar" />
+          <element id="file-copy" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.1/fd13b1c033741d48291315c6370f7d475a42dccf/jackson-core-2.8.1.jar" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/out/artifacts/springSession/exploded/springSession-1.0-SNAPSHOT.war/META-INF/MANIFEST.MF" />
+      </element>
+    </root>
+  </artifact>
+</component>
