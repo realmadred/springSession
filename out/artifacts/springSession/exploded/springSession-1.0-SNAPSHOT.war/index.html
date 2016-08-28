@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang=zh_cn">
+<head>
+    <meta charset="UTF-8">
+    <title>bootstrap</title>
+    <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/jquery/3.0.0/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(function () {
+            $("#btn").click(function () {
+                $.get("/admin/sessions",
+                        function (data) {
+                            alert(JSON.stringify(data));
+                        }
+                );
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+    <h1>session</h1>
+    <div>
+        <button class="btn btn-success" id="btn">button</button>
+    </div>
+</div>
+</body>
+</html>
